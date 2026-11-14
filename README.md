@@ -50,7 +50,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Step 1: Load the image
-image = cv2.imread('')  # Load the image from file
+image = cv2.imread('my_photo.jpg')  # Load the image from file
 
 # Display the original image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for correct display
@@ -143,38 +143,46 @@ plt.axis('off')
 ## Output
 ### i) Input Iamge
 
-<img width="280" height="407" alt="Screenshot 2026-10-31 101724" src="https://github.com/user-attachments/assets/6f17e4f7-ca8d-41d0-b2a6-5afcb2b3728e" />
+<img width="270" height="471" alt="Screenshot 2026-11-14 204337" src="https://github.com/user-attachments/assets/2461e095-6f40-432a-b44a-7fbb098dea13" />
+
 
 
 ### ii) Image Translation
 
 
-<img width="283" height="398" alt="Screenshot 2026-10-31 101808" src="https://github.com/user-attachments/assets/bfd4e775-433d-4d35-b5c2-283311a90c3c" />
+<img width="262" height="462" alt="Screenshot 2026-11-14 204410" src="https://github.com/user-attachments/assets/0680d064-13d1-4ea1-ad22-2b73c1dc2041" />
+
+
 
 
 ### iii) Image Scaling
 
-<img width="522" height="385" alt="Screenshot 2026-10-31 101832" src="https://github.com/user-attachments/assets/6f4fd0ea-ae28-42d9-a3d1-63f37eddb72d" />
 
+<img width="581" height="450" alt="Screenshot 2026-11-14 204443" src="https://github.com/user-attachments/assets/09ed6ee8-5eda-42eb-a4a9-2470976bb153" />
 
 ### iv) Image Shearing
 
-<img width="297" height="406" alt="Screenshot 2026-10-31 101845" src="https://github.com/user-attachments/assets/6baf0e87-d1ac-4c54-9772-4e48aeb30587" />
+<img width="282" height="465" alt="Screenshot 2026-11-14 204604" src="https://github.com/user-attachments/assets/987f572e-ca8c-44fd-834a-7e422755df9a" />
+
 
 
 ### v) Image Reflection
 
-<img width="256" height="407" alt="Screenshot 2026-10-31 101853" src="https://github.com/user-attachments/assets/8e58f2f7-9f5d-4925-af07-4795e21d6ce7" />
+
+<img width="278" height="467" alt="Screenshot 2026-11-14 204609" src="https://github.com/user-attachments/assets/b9a8df26-7b00-4fd2-9cd8-13e62c83dd12" />
 
 
 ### vi) Image Rotation
 
-<img width="287" height="397" alt="Screenshot 2026-10-31 101903" src="https://github.com/user-attachments/assets/71b7ea3b-618c-4ca1-b080-d6dbcc8021f4" />
+
+<img width="292" height="471" alt="Screenshot 2026-11-14 204614" src="https://github.com/user-attachments/assets/e0c46b4f-45d2-4632-b66a-068a5031b879" />
 
 
 ### vii) Image Cropping
 
-<img width="507" height="397" alt="Screenshot 2026-10-31 101917" src="https://github.com/user-attachments/assets/a6082f64-4cf5-436f-9ae2-0cb31e9bc4ea" />
+
+<img width="600" height="460" alt="Screenshot 2026-11-14 204620" src="https://github.com/user-attachments/assets/80349757-8e69-4806-803a-4f42ceebdc23" />
+
 
 
 ## Result
